@@ -109,6 +109,19 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 | Total |  | 20hrs| hrs |
 
 -------------------------------------------------------------
+### Progress Notes 
+- For footer: change to show a hover color 
+- Add CSS property to Nav items, scroll-behavior: smooth
+- Google Fonts for styling  
+
+### Issues 
+- Main photo - stretching when adjusting the height to rem
+- When pushing to github - Index page 
+
+### Other Ideas for PostMVP
+- Bio image 
+
+-------------------------------------------------------------
 _Update sections below later_ 
 
 ## Additional Libraries
