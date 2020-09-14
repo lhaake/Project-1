@@ -1,0 +1,33 @@
+
+/* Responsive Mobile first */
+
+/* Nav styles using flexbox */
+nav {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+/* hamburger menu */
+.fas.fa-bars {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
