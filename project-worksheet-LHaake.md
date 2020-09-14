@@ -8,11 +8,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline Due, Begin Building Site | Complete
 |Day 2 - Tuesday| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 3 - Wednesday| Working with API | Incomplete
 |Day 4 - Thursday| MVP, Bug Fixes & Deployment to Github Pages | Incomplete
-|Day 5 - Friday| Final Touches & Presentation | Incomplete
+|Day 5 - Friday| Final Touches, Update Proj Worksheet & Presentation | Incomplete
 
 ##  Research 
 Spend sometime and look at a few portfolio  and/or web sites to find some design or functionality that you would like to incorporate into your own portfolio.  Record those findings below:
