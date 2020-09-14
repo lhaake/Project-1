@@ -8,12 +8,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2 - Tuesday| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3 - Wednesday| Working with API | Incomplete
+|Day 4 - Thursday| MVP, Bug Fixes & Deployment to Github Pages | Incomplete
+|Day 5 - Friday| Final Touches & Presentation | Incomplete
 
 ##  Research 
 Spend sometime and look at a few portfolio  and/or web sites to find some design or functionality that you would like to incorporate into your own portfolio.  Record those findings below:
@@ -74,9 +73,9 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 
 - Skills section (programming langauges and technologies)
 - On Mobile Nav, edit name to show initials 
-- Use Boostrap
+- Use Bootstrap
 - Add drop down or radio buttons to Contact Form
-- Additional JS/CSS Design 
+- Additional JS/CSS Design or Animation
 
 
 ## Functional Components 
