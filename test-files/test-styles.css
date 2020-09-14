@@ -1,0 +1,37 @@
+
+/* Responsive Mobile first */
+
+/* Nav styles using flexbox */
+nav {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between;  */
+    border: 1px solid red;
+}
+
+.nav-item {
+    width: 100%;
+    display: none;
+    border: 1px solid green;
+}
+
+/* hamburger menu */
+.fas.fa-bars {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+
+/* Header Image */
+.header img {
+    width: 320px;
+    height: 213px;
+}
