@@ -8,7 +8,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline Due, Begin Building Site | Complete
+|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline Due, Begin Building Site | In progress
 |Day 2 - Tuesday| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 3 - Wednesday| Working with API | Incomplete
 |Day 4 - Thursday| MVP, Bug Fixes & Deployment to Github Pages | Incomplete
@@ -54,6 +54,7 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 - Building HTML and CSS Structure for Mobile (first), Tablet and Desktop
 - Organize Site Content, including the text, any images
 - Styling (color and font choices)
+- Use Bootstrap
 - Nav 
     - Mobile - Hamburger Menu
     - Tablet & Desktop versions
@@ -73,7 +74,6 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 
 - Skills section (programming langauges and technologies)
 - On Mobile Nav, edit name to show initials 
-- Use Bootstrap
 - Add drop down or radio buttons to Contact Form
 - Additional JS/CSS Design or Animation
 
@@ -85,12 +85,10 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 | --- | :---: |  :---: | :---: | 
 | Communication with Stack | H | 4hrs | hr |
 | HTML Structure | H | 2hrs | hr |
-| CSS Responsive - Grid | H | 2.5hrs | hr |
-| CSS Responsive - Flexbox | H | 2.5hrs | hr |
+| Bootstrap Structure | H | 5hrs | hr |
+| CSS Responsive | H | 3hrs | hr |
 | Content | M | 1hr | hr |  
 | Styling | M | 3hrs | hr | 
-| Nav - Mobile Hamburger | M | 3hrs | hr|
-| Nav - Tablet & Desktop | H | 2hr | hr | 
 | About Page | H | 1hr | hr |
 | Contact Form | H | 1hr | hr |
 | Footer | L | 1hr | hr |
@@ -99,12 +97,11 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 | Style projects data | H | 4hrs | hr |
 | Setup and Deployment to Github Pages | H | 3.5hrs |  hr |
 | Project previews & testing | H | 4.5hrs |  hr |
-| Total |  | 42hrs| hrs |
+| Total |  | 40hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Bootstrap | M | 5hr | hr |
 | Skills Section | M | 4hr | hr |
 | Edit Mobile Nav | L | 3hr | hr |
 | Add to Contact form | L | 4hr | hr |
