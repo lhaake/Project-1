@@ -5,17 +5,53 @@
 } */
 
 .card-img-overlay .card-title {
-    padding-left: 170px;
-    margin-top: 120px;
+    /* padding-left: 170px;
+    margin-top: 120px; */
 }
 
-.about-container h2, .projects-container h2 {
+.about-container h2, .projects-container h2, .contact-container h2, .form-container h2 {
     text-align: center;
+    padding: 25px;
 }
+
 .about-container .row p, .row .col-sm {
     text-align: center;
 }
 
+/* .about-container {
+    padding: 25px;
+} */
+
+.form-container {
+    margin: 15px;
+    padding: 25px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+/* Footer  */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: palegreen;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.icons i {
+    padding: 20px 15px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
