@@ -13,21 +13,69 @@ let sheetAsJSON = "https://spreadsheets.google.com/feeds/list/1GozbvSSln3rtpnqxq
 
 const render = (projectsArray) => {
     console.log("Testing the projectsArray", projectsArray)
-    for (let i = 0; i < projectsArray.length; i += 1) {
-        let $projectsSection = $(".projects-container");
-        $projectsSection.append(projectsArray[i].title)
-        $projectsSection.append(projectsArray[i].image).css("background-image", "url()")
-        $projectsSection.append(projectsArray[i].description)
-        console.log(projectsArray[i])
-    }
+    // Using forEach()
+    projectsArray.forEach(project => {
+        const $projectSection = $("<div>");
+        const $titleText = $("<h3>");
+        const $descriptionText = $("<p>");
+        const $img = $("<img>");
 
-    // projectsArray.forEach( project => {
-    //     // let $projectsCol = $(".col-sm .projects");
-    //     const $div = $("<div>")
-    //     $div.append(project)
-    // })
-            
+        $projectSection.append($titleText);
+        $projectSection.append($img);
+        $projectSection.append($descriptionText);
+        $("article").append($projectSection).addClass("projects-container");
+
+        $titleText.append(project.title).addClass("proj-title");
+        $img.append(project.image).attr("src", project.image).addClass("proj-img");
+        $descriptionText.append(project.description).addClass("proj-description");
+        console.log(project);
+    })
+
 }
+
+// $("article").append($projectSection);
+
+// $projectSection.append(project.title).addClass("card-title")
+// $projectSection.append(project.image).addClass("card-img-top")
+// $projectSection.append(project.description).addClass("card-text")
+// console.log(project)
+
+// (project.title).addClass("card-title")
+// (project.image).addClass("card-img-top")
+// (project.description).addClass("card-text")
+
+
+/* <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+</div> */
+
+
+
+
+// For Loop to Append Projects 
+// for (let i = 0; i < projectsArray.length; i += 1) {
+//     // const $projectsSection = $(".projects-container");
+
+//     // creating a div for each Project / Iteration / time through loop of ProjectsArray
+//     const $projectDisplay = $("<div>")
+
+//     // Adding div to main
+//     $("main").append($projectDisplay)
+
+//     // Adding each Project to the page as a new div
+//     $projectDisplay.append(projectsArray[i].title)
+//     $projectDisplay.append(projectsArray[i].image).css("padding", "50px")
+//     $projectDisplay.append(projectsArray[i].description)
+
+//     console.log(projectsArray[i])
+// }
+            
+
 
 // Using AJAX to pull data
 

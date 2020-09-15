@@ -53,12 +53,27 @@ footer p {
     font-size: 12px;
 }
 
+/* Projects Section */
+.proj-title {
+    font-size: 22px;
+    padding-left: 20px;
+}
+.proj-img {
+  width: 300px;
+  padding-left: 20px;
+}
 
+.proj-description {
+    font-size: 16px;
+    padding-left: 20px;
+}
 
-
-
-
-
+/* Responsive styling for Contact Form  */
+@media screen and (min-width: 577px) {
+    .col-form-label {
+      padding-right: 70px !important;
+    }
+}
 
 /* Responsive - Tablet (min-width:768px)  */
 
