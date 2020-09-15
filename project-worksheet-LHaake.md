@@ -112,7 +112,7 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 ### Progress Notes 
 - For footer: change to show a hover color 
 - Add CSS property to Nav items, scroll-behavior: smooth
-- Google Fonts for styling  
+- Look into Google Fonts and ColorHunt for styling  
 
 ### Issues 
 - Main photo - stretching when adjusting the height to rem
