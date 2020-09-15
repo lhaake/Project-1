@@ -15,21 +15,26 @@ const render = (projectsArray) => {
     console.log("Testing the projectsArray", projectsArray)
     // Using forEach()
     projectsArray.forEach(project => {
-        const $projectSection = $("<div>");
+        const $projectDiv= $("<div>");
         const $titleText = $("<h3>");
         const $descriptionText = $("<p>");
         const $img = $("<img>");
 
-        $projectSection.append($titleText);
-        $projectSection.append($img);
-        $projectSection.append($descriptionText);
-        $("article").append($projectSection).addClass("projects-container");
+        $projectDiv.append($titleText);
+        $projectDiv.append($img);
+        $projectDiv.append($descriptionText);
+        $projectDiv.addClass("proj-div")
+        $("article").append($projectDiv).addClass("projects-container");
 
         $titleText.append(project.title).addClass("proj-title");
         $img.append(project.image).attr("src", project.image).addClass("proj-img");
         $descriptionText.append(project.description).addClass("proj-description");
         console.log(project);
     })
+    // $projectSection[0].addClass("proj-div1")
+    // $projectSection[1].addClass("proj-div2")
+    // $projectSection[2].addClass("proj-div3")
+    // $projectSection[3].addClass("proj-div4")
 
 }
 
