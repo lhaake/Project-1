@@ -119,7 +119,8 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 - When pushing to github - Index page 
 
 ### Other Ideas for PostMVP
-- Bio image 
+- Bio image
+- Image Gallery 
 
 -------------------------------------------------------------
 _Update sections below later_ 
