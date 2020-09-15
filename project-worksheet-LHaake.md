@@ -141,6 +141,6 @@ function reverse(string) {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+#### Issue pushing to my GitHub repo
+**ERROR**: error: failed to push some refs to 'https://github.com.lhaake/Project-1.git' Updates were rejecetd because the remote contains work that you do not have locally.                          
+**RESOLUTION**: Stack helped me by running: ``` git push origin master --force ```
