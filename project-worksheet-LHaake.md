@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline Due, Begin Building Site | In progress
-|Day 2 - Tuesday| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 3 - Wednesday| Working with API | Incomplete
+|Day 1 - Monday| Project Approval, Wireframes / Priority Matrix / Timeline Due, Begin Building Site | Complete
+|Day 2 - Tuesday| Core Application Structure (HTML, CSS) & Working with API | Complete
+|Day 3 - Wednesday| Working with API & Styling  | Incomplete
 |Day 4 - Thursday| MVP, Bug Fixes & Deployment to Github Pages | Incomplete
 |Day 5 - Friday| Final Touches, Update Proj Worksheet & Presentation | Incomplete
 
@@ -81,8 +81,8 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 ## Functional Components 
 
 #### MVP
-| Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: | 
+| Component | Priority | Estimated Time | Actual Time | Status |
+| --- | :---: |  :---: | :---: | :---: |
 | Communication with Stack | H | 4hrs | hr |
 | HTML Structure | H | 2hrs | hr |
 | Bootstrap Structure | H | 5hrs | hr |
@@ -92,9 +92,9 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 | About Page | H | 1hr | hr |
 | Contact Form | H | 1hr | hr |
 | Footer | L | 1hr | hr |
-| Pull projects data using API | H | 3hrs | hr|
-| Render projects data on website | H | 4hrs | hr | 
-| Style projects data | H | 4hrs | hr |
+| Pull projects data using API | H | 3hrs | 1hr| Complete |
+| Render projects data on website | H | 4hrs | 1.5-2hr | Complete |
+| Style projects data | H | 4hrs | 2 hr | In progress |
 | Setup and Deployment to Github Pages | H | 3.5hrs |  hr |
 | Project previews & testing | H | 4.5hrs |  hr |
 | Total |  | 40hrs| hrs |
@@ -109,14 +109,16 @@ My [Google Sheet](https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xp
 | Total |  | 20hrs| hrs |
 
 -------------------------------------------------------------
-### Progress Notes 
+## Progress Notes 
+
+### Ideas
 - For footer: change to show a hover color 
 - Add CSS property to Nav items, scroll-behavior: smooth
 - Look into Google Fonts and ColorHunt for styling  
+- Add Text overlay on header image with my name ?
 
 ### Issues 
 - Main photo - stretching when adjusting the height to rem
-- When pushing to github - Index page 
 
 ### Other Ideas for PostMVP
 - Bio image
@@ -127,6 +129,7 @@ _Update sections below later_
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+ -  Bootstrap
 
 ## Code Snippet
 
@@ -142,5 +145,5 @@ function reverse(string) {
  Use this section to list of all major issues encountered and their resolution.
 
 #### Issue pushing to my GitHub repo
-**ERROR**: error: failed to push some refs to 'https://github.com.lhaake/Project-1.git' Updates were rejecetd because the remote contains work that you do not have locally.                          
-**RESOLUTION**: Stack helped me by running: ``` git push origin master --force ```
+**ERROR**: error: failed to push some refs to 'https://github.com.lhaake/Project-1.git' Updates were rejected because the remote contains work that you do not have locally.  _My Notes:_ I think I caused this error when I was working on a new layout for my site and deleted files on my repo (such as styles.css), and the remote and local didn't match.                        
+**RESOLUTION**: Stack helped me by running the command in the terminal: ``` git push origin master --force ``` 
