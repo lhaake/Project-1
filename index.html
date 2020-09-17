@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Staatliches&display=swap" rel="stylesheet">
     <!-- My CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
@@ -52,112 +53,93 @@
         </div>
     </nav>
 
+
     <!-- Main Header Image -->
     <div class="card bg-light text-black">
-        <img src="images/unsplash-ocean.jpg" class="card-img" alt="homepage image ocean">
+        <img src="images/unsplash-ocean.jpg" class="card-img" alt="ocean image">
         <div class="card-img-overlay">
-            <h4 class="card-title">Text</h4>
+            <h4 class="card-title"></h4>
         </div>
     </div>
 
-    <!-- About-->
+
+    <!-- About -->
     <section>
-        <div class="about-container">
+        
+        <div class="about-container" id="about">
             <h2>About</h2>
             <div class="row">
                 <div class="col-lg">
-                    <p>About section text goes here!</p>
+                    <p><span class="hello">Hi! I’m Leah, a full-stack web developer</span></p>
+                        <p> I’m a student in General Assembly’s Software Engineering Immersive program. The languages & technologies I’m learning over the next 3 months include:  HTML, CSS, JavaScript, React, NodeJS, Ruby and Rails.</p>
+                    
+                    
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects -->
-    <section>
-        <div class="projects-container">
-            <h2>Projects</h2>
-            <div class="row first">
-                <div class="col-sm projects">
-                   
-                </div>
-                <div class="col-sm projects">
-                   
-                </div>
-                <div class="col-sm projects">
-                    
-                </div>
-            </div>
+    <!-- Projects Section-->
+    <main id="projects">
+        <h2>Projects</h2> 
+   
 
-            <!-- <div class="row second">
-                <div class="col-sm fourth">
-                   
-                </div>
-                <div class="col-sm fifth">
-                   
-                </div>
-                <div class="col-sm sixth">
-                    
-                </div>
-            </div> -->
-        </div>
-    </section>
+        <!-- Projects pulled from Google Sheets API -->
+        <article> 
 
-    <main>
-
+        </article>
 
     </main>
 
-    <article>
-        <!-- <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div> -->
-
-    </article>
-
+    <br>
     <!-- Contact Form -->
-    <form class="form-container">
+
+    <section id="contact">
         <h2>Contact</h2>
-        <p>Reach out to me via the contact form, email or on LinkedIn.</p><br>
-        <div class="form-group row">
+        <p><i class="far fa-comment-alt"></i>
+            Reach out to me via the contact form, send an <a href="mailto:lchaake@gmail.com">email</a>, or connect with me on <a
+                href="https://www.linkedin.com/in/leah-haake/" target="_blank">LinkedIn</a>!
+        </p>
+      
+    <form class="form-container">
+        <br>
+        <div class="form-group row name">
             <label for="inputName" class="col-sm-1 col-form-label">Name</label>
             <div class="col-sm-5">
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" placeholder="Your name">
             </div>
         </div>
         <div class="form-group row">
             <label for="inputEmail" class="col-sm-1 col-form-label">Email</label>
             <div class="col-sm-5">
-                <input type="email" class="form-control" placeholder="Email address">
+                <input type="email" class="form-control" placeholder="Your Email Address">
             </div>
         </div>
         <div class="form-group row">
             <label for="inputMessage" class="col-sm-1 col-form-label">Message</label>
             <div class="col-sm-5">
-                <textarea class="form-control" rows="7" placeholder="Message"></textarea>
+                <textarea class="form-control" rows="7" placeholder="Write a message"></textarea>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary contact">Submit</button>
     </form>
+
+        <!-- <div class="contact-image">
+            <img src="images/unsplash3.jpg" alt="ocean image" class="photo">
+        </div> -->
+</section>
 
     <!-- Footer -->
     <footer>
         <div class="icons">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/lhaake" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/leah-haake/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+            <a href="mailto:lchaake@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
         </div>
-        <p>Leah Haake</p>
     </footer>
 
 
-    <!-- JS-->
+    <!-- JS -->
     <script src="js/app.js" charset="utf-8"></script>
 </body>
-
 </html>

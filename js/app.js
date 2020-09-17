@@ -9,6 +9,7 @@ let sheetUrl = "https://docs.google.com/spreadsheets/d/1GozbvSSln3rtpnqxqOF7xpyT
 let sheetID = "1GozbvSSln3rtpnqxqOF7xpyThqbDv532YxUGB41sd5o";
 let sheetAsJSON = "https://spreadsheets.google.com/feeds/list/1GozbvSSln3rtpnqxqOF7xpyThqbDv532YxUGB41sd5o/od6/public/values?alt=json";
 
+
 // Create function that adds Projects to DOM
 
 const render = (projectsArray) => {
@@ -33,40 +34,6 @@ const render = (projectsArray) => {
         console.log(project);
     })
 }
-
-
-
-
-/* <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-</div> */
-
-
-
-
-// For Loop to Append Projects 
-// for (let i = 0; i < projectsArray.length; i += 1) {
-//     // const $projectsSection = $(".projects-container");
-
-//     // creating a div for each Project / Iteration / time through loop of ProjectsArray
-//     const $projectDisplay = $("<div>")
-
-//     // Adding div to main
-//     $("main").append($projectDisplay)
-
-//     // Adding each Project to the page as a new div
-//     $projectDisplay.append(projectsArray[i].title)
-//     $projectDisplay.append(projectsArray[i].image).css("padding", "50px")
-//     $projectDisplay.append(projectsArray[i].description)
-
-//     console.log(projectsArray[i])
-// }
-
 
 
 // Using AJAX to pull data
